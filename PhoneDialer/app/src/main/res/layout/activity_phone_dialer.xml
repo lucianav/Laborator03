@@ -90,7 +90,7 @@
             android:text="@string/nine"/>
 
         <Button
-            android:id="@+id/hashtag_button"
+            android:id="@+id/star_button"
             android:layout_row="4"
             android:layout_column="0"
             android:text="@string/star"/>
@@ -100,7 +100,7 @@
             android:layout_column="1"
             android:text="@string/zero"/>
         <Button
-            android:id="@+id/star_button"
+            android:id="@+id/hashtag_button"
             android:layout_row="4"
             android:layout_column="2"
             android:text="@string/hashtag"/>
@@ -114,14 +114,19 @@
             android:src="@drawable/call"/>
 
         <ImageButton
-            android:id="@+id/hanguo_button"
+            android:id="@+id/save_button"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/contacts"/>
+
+        <ImageButton
+            android:id="@+id/hangup_button"
             android:layout_row="5"
             android:layout_column="2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/hangup"/>
-
-
     </GridLayout>
-
 </LinearLayout>
